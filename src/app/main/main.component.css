@@ -1,0 +1,28 @@
+div {
+    background-color: #F9F7F2;
+    color: #252422;
+    border: 1px solid #011627;
+    border-radius: 5px;
+    font-size: 150%;
+    height: 100%;
+    text-align:center;
+    font-family: 'Muli', "Helvetica", Arial, sans-serif;
+}
+
+h3 {
+    
+}
+
+button {
+    color: #fff;
+    background-color: #798284;
+    min-width: 140px;
+    border-radius: 20px;
+    border-color: #798284;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    padding:7px 18px;
+    vertical-align: middle;
+    cursor: pointer;
+}

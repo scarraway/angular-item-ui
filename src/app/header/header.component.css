@@ -1,0 +1,9 @@
+div {
+    background-color: rgba(0, 95, 197, 0.8);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 150%;
+    height: 100%;
+    
+}

@@ -1,0 +1,7 @@
+{
+    "/items/*": {
+        "target": "http://item-service:9000", 
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
