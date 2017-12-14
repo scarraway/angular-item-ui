@@ -38,7 +38,7 @@ Create a kube deployment
 ```kubectl run test-angular --image=simple-angular:v1 --port=4200```
 
 Check deployment status
-```kubectl get pods``
+```kubectl get pods```
 
 Expose the pod to external requests
 ```kubectl expose deployment test-angular —type=LoadBalancer```
