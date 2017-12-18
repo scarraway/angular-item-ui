@@ -10,11 +10,12 @@ import { Item } from '../item';
 })
 export class MainComponent implements OnInit {
 
+  items: Item[];
   constructor(private itemService: ItemService) { }
 
   getAllItems(){
     this.itemService.getAllItems().subscribe(items => {
-      console.log(items);
+      this.items = items;
     });
   }
 

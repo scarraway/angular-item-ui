@@ -1,5 +1,6 @@
 <div>
     <h3>Main component</h3>
     <button (click)="getAllItems()">Get All Items</button>
-    <button (click)="addItems()">Add some items</button>
+    <button (click)="addItems()">Add some items</button> 
+    <app-item [item]="item" *ngFor="let item of items"></app-item>
 </div>
